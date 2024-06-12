@@ -2,35 +2,35 @@
 
 class Product
 {
-    public $name = "Een bepaald spel";
+    public $name = "Een bepaald frisdrank";
 }
 
-$game1 = new Product();
-$game1->name = "Fifa 2023";
+$drank1 = new Product();
+$drank1->name = "Fanta";
 
-$game2 = new Product();
-$game2->name = "Call of Duty";
+$drank2 = new Product();
+$drank2->name = "Coca-Cola";
 
-$game3 = new Product();
-$game3->name = "Minecraft";
+$drank3 = new Product();
+$drank3->name = "Sprite";
 
-$game4 = new Product();
-$game4->name = "Valorant";
+$drank4 = new Product();
+$drank4->name = "Dr Pepper";
 
 
-echo $game1->name. "<br><br>";
-echo $game2->name. "<br><br>";
-echo $game3->name. "<br><br>";
-echo $game4->name. "<br><br>";
+echo $drank1->name. "<br><br>";
+echo $drank2->name. "<br><br>";
+echo $drank3->name. "<br><br>";
+echo $drank4->name. "<br><br>";
 
-$game1->name = "Fifa 2022";
-echo $game1->name. "<br><br>";
+$drank1->name = "Fria";
+echo $drank1->name. "<br><br>";
 
-var_dump($game1);
+var_dump($drank1);
 echo "<br><br>";
-var_dump($game2);
+var_dump($drank2);
 echo "<br><br>";
-var_dump($game3);
+var_dump($drank3);
 echo "<br><br>";
 
 
